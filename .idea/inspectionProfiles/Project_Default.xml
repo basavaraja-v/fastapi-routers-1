@@ -1,0 +1,27 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E502" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="supabase.*" />
+          <option value="postgrest._sync.request_builder.SyncQueryRequestBuilder.error" />
+          <option value="postgrest._sync.request_builder.SyncQueryRequestBuilder.*" />
+          <option value="postgrest._sync.request_builder.SyncFilterRequestBuilder.*" />
+          <option value="postgrest._sync.request_builder.SyncSelectRequestBuilder.*" />
+          <option value="app.*" />
+          <option value="api.routes.api.schemas" />
+          <option value="api.shared.supabase.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
